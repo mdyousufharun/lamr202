@@ -1,0 +1,202 @@
+body,h1,h2,h3,h4,h5,h6,p,a{
+    font-family: 'Work Sans', sans-serif;
+}
+.navbar-brand img{
+    width: 45px;;
+}
+.container{
+    max-width: 1340px;
+}
+img{
+    max-width: 100%;
+}
+/*my-header style*/
+.my-header span{
+    font-size: 25px;
+    font-weight: 500;
+}
+.my-header{
+    top: 0;
+    left: 0;
+    
+    z-index: 99;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+}
+/*slider-section css style*/
+.slider-section{
+    background: url(img/mbr-10.jpg) no-repeat center center;
+    padding: 180px 0;
+    position: relative;
+    z-index: 9;
+    margin-top: 60px;
+} 
+.slider-section p{
+    font-size: 26px;
+    font-weight: 300;
+}
+.slider-section::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(5, 5, 5, 0.5);
+    z-index: -1;
+}
+
+
+/*about section css style*/
+.about{
+    background: #f7f9ff;  
+}
+.about-text-left{
+    margin-top: 120px;
+}
+.about-text-left .lead{
+    font-size: 20px;
+    line-height: 2.1rem;
+    font-weight: 400;
+}
+.about-text-left h2{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+/*feature section css style*/
+.feature-items{
+    height: 270px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+}
+.left-img-side{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+    position: relative;
+}
+.left-img-side img{
+    height: 100%;
+    width: auto !important;
+    
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;  
+}
+.left-text-side{
+    width: 60%;
+    padding: 25px;
+}
+/*protfolio section style css*/
+.protfolio-items a{
+    position: relative;
+    display: block;
+}
+.protfolio-items a::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(101, 101, 151, 0.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s;
+
+    
+}
+.protfolio-items:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+/*pricing section style*/
+.pricing-section{
+    background: #f7f9ff;  
+}
+.pricing-items{
+    background: white;
+    padding: 50px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+}
+.pricing-items h1 {
+    
+    padding-bottom: 25px;
+}
+.pricing-items h5 {
+    padding-bottom: 30px;
+}
+.pricing-items ul{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 40px;
+}
+.pricing-items ul li {
+    padding: 10px;
+    font-size: 22px;
+    font-weight: 300;
+    list-style: none;
+}
+.pricing-items ul li span {
+    color: #6278df;
+    font-weight: bold;
+    font-size: 25px;
+    width: 33px;
+    display: inline-block;
+}
+.pricing-items-btn a{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+}
+/*testomonial css*/
+.aouther-info {
+    width: 180px;
+    margin: auto;
+}
+.aouther-info img {
+    width: 60px;
+}
+.user-details {
+    position: relative;
+    top: 8px;
+}
+.user-details h5{
+    margin: 0;
+}
+/*about-us section style*/
+.about-us{
+    background: #f7f9ff;  
+}
+.about-us-items img {
+    width: 120px;
+    margin-top: -50px;
+    margin-left: 15px;
+}
+.about-us-items .card .card-title {
+    font-weight: 500;
+    font-size: 22px;
+}
+.about-us-items .card .card-subtitle {
+    font-weight: 400;
+    font-size: 22px;
+}
+.about-us-items .card p{
+    color:#3f4247 ;
+}
+.about-us .lorem p{
+    font-size: 18px;
+    font-weight: 400;
+    color:#3f4247 ;
+}
+/*content-form-section css style*/
+.content-form-div .card-body{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+}
+
+
+footer{
+    background: #f7f9ff;
+}
